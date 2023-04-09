@@ -1,0 +1,2 @@
+OS spies observação as funções para dizer quantas vezes elas foram chamadas, com quais parametros e resultados que ela retornou
+Instalar o sinon npm i -D sinon@15.0.1

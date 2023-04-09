@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": " node src/fibonacci.test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Rodrigocleyton/Spies.git"
+  },
+  "engines": {
+    "node": 18
   },
   "keywords": [],
   "author": "",
@@ -16,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Rodrigocleyton/Spies/issues"
   },
-  "homepage": "https://github.com/Rodrigocleyton/Spies#readme"
+  "homepage": "https://github.com/Rodrigocleyton/Spies#readme",
+  "devDependencies": {
+    "sinon": "^15.0.1"
+  }
 }
