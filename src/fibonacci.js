@@ -1,10 +1,11 @@
 class Fibonacci {
-   * execute (input) {
-    yield 0
-    yield 1
-    yield 2
-    yield 3
+   * execute (input, current=0, next=1) {
+        if(input === 0) {
+            return
+        }
+        yield current
 
+        yield * this.execute(input -1,next,current + next )
     }
 }
 
